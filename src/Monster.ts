@@ -14,7 +14,7 @@ export default class Monster implements SimpleFighter {
   }
 
   get strength(): number {
-    return this._lifePoints;
+    return this._strength;
   }
 
   receiveDamage(attackPoints: number): number {
